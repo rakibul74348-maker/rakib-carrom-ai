@@ -1,0 +1,11 @@
+{
+  "maintenance": false,
+  "banned_devices": "",
+  "keys": {
+    "RAKIB-7DAY-TEST": {
+      "username": "Rakib",
+      "expiry_date": "2026-10-15",
+      "banned": false
+    }
+  }
+}
