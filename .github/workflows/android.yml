@@ -26,7 +26,7 @@ jobs:
         cp debug.keystore app/debug.keystore
         mkdir -p ~/.android
         cp debug.keystore ~/.android/debug.keystore
-        echo '{"project_info":{"project_number":"123456789","project_id":"rakib-carrom-ai","storage_bucket":"rakib.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:123456789:android:123456789","android_client_info":{"package_name":"com.example.ui"}},"oauth_client":[],"api_key":[{"current_key":"AIzaSyFakeKeyForBuildValidationOnly"}],"services":{}}],"configuration_version":"1"}' > app/google-services.json
+        echo '{"project_info":{"project_number":"123456789","project_id":"rakib-carrom-ai","storage_bucket":"rakib.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:123456789:android:123456789","android_client_info":{"package_name":"com.aistudio.carromaimpro.rkba"}},"oauth_client":[],"api_key":[{"current_key":"AIzaSyFakeKeyForBuildValidationOnly"}],"services":{}}],"configuration_version":"1"}' > app/google-services.json
 
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
